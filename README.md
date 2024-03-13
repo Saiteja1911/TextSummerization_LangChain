@@ -11,8 +11,8 @@ The script first imports necessary libraries for Langchain, OpenAI, and text pro
 It defines an API key for OpenAI access (replace 'your_api_key' with your actual key).
 Basic Prompt Summarization: This section demonstrates how to summarize a speech using a simple prompt and ChatOpenAI model.
 Prompt Templates Text Summarization: This section showcases using Prompt Templates for specifying the input and desired output format for summaries, including language translation.
-StuffDocumentChain Text Summarization: This section explains how to summarize text extracted from a PDF document using a pre-built Summarization Chain.
-Summarizing Large Documents Using Map Reduce: This section demonstrates summarizing large documents by splitting them into smaller chunks, summarizing each chunk individually, and then combining them using MapReduce techniques.
+PDF Summarization with Summarization Chains: Leverage pre-built Summarization Chains within Langchain to efficiently summarize text extracted from PDF documents. These chains streamline the process by handling text extraction and summarization in a single step.
+MapReduce for Large Documents: For exceptionally large documents, this section demonstrates a MapReduce approach. The text is split into smaller chunks, each summarized individually using Langchain, and then the summaries are combined to create a comprehensive summary of the entire document.
 Map Reduce With Custom Prompts: This section shows how to create custom prompts for both summarizing individual chunks and combining the final summary.
 RefineChain For Summarization: This section explores using a RefineChain for potentially improving the quality of the final summary.
 Note:
